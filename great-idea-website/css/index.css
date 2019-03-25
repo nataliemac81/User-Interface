@@ -65,33 +65,106 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-nav {
-	display: inline;
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.navigation {
+	display: inline-block;
+	width: 100%;
+/*	border: 3px solid aquamarine;*/
+	box-sizing: border-box;
+	margin: 0 auto;
+	text-align: right;
+
+}
+
+.navigation a {
+/*	border: 3px solid dodgerblue;*/
+	display: inline-block;
+	box-sizing: border-box;
+	text-decoration: none;
+	margin: 20px 55px;
+	font-size: 15px;
+	color: silver;
+}
+
+.navigation .logo {
+	display: inline-block;
+/*	border: 3px solid orchid;*/
+	box-sizing: border-box;
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
+.header {
+/*	border: 3px solid peachpuff;*/
+	box-sizing: border-box;
+	width: 100%;
+/*	margin-top: 150px;*/
+	padding-top: 30px;
+}
+
+.header h1 {
+	box-sizing: border-box;
+/*	border: 3px solid indigo;*/
+	display: inline-block;
+	font-size: 80px;
+	width: 50%;
+	text-align: center;
+	margin-left: 150px;
+	padding: 50px 0;
+	padding-bottom: unset;
+}
+
+.header .get-started {
+	box-sizing: border-box;
+	border: 2px solid black;
+	background-color: white;
+	font-size: 18px;
+	font-family: 'Titillium Web', sans-serif;
+	color: black;
+	width: 175px;
+	height: 40px;
+	margin-left: 400px;
+	display: block;
+}
+
+.header .head-img {
+	box-sizing: border-box;
+/*	border: 3px solid rosybrown;*/
+	display: inline-block;
+	margin-left: 800px;
+	margin-top: -400px;
+    padding: 50px;
 }
 
 
+hr {
+	width: 90%;
+}
 
 
+.top-content {
+	border: 3px solid rosybrown;
+}
 
+.top-content h2 {
+	font-family: font-family: 'Bangers', cursive;
+}
 
+.middle-img {
+	border: 3px solid indigo;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.bottom-content {
+	border: 3px solid aquamarine;
+}
 
 
 
